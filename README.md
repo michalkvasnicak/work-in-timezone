@@ -1,4 +1,4 @@
-# Work in timezone [https://work-in-timezone.netlify.com](https://work-in-timezone.netlify.com)
+# Work in timezone [https://work-in-timezone.now.sh](https://work-in-timezone.now.sh)
 
 1. Quickly share timezones that are compatible with a job offer.
 2. Quickly find out if you fulfill the timezone restriction for a job.
