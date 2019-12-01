@@ -1,0 +1,9 @@
+[build]
+  command = "yarn build:serverless"
+  functions = "build/"
+  publish = "build"
+
+[[redirects]]
+  from = "/*"
+  to = ".netlify/build/server/:splat"
+  status = 200
