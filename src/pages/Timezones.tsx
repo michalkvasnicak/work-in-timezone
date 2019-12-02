@@ -75,9 +75,9 @@ export function Timezones({
           const data = new FormData(e.currentTarget);
 
           history.push(
-            `/work-in-timezone/${data.get('timezone')}/${data.get(
-              'offsetStart',
-            )}-${data.get('offsetEnd')}`,
+            `/${data.get('timezone')}/${data.get('offsetStart')}-${data.get(
+              'offsetEnd',
+            )}`,
           );
         }}
       >

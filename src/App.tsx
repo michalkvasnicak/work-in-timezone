@@ -16,14 +16,10 @@ export function App() {
       <Helmet titleTemplate="%s | Available in timezone" />
       <Switch>
         <Route exact path="/" component={Timezones} />
+        <Route exact path={`/:timezone(${timezones})`} component={Timezones} />
         <Route
           exact
-          path={`/work-in-timezone/:timezone(${timezones})`}
-          component={Timezones}
-        />
-        <Route
-          exact
-          path={`/work-in-timezone/:timezone(${timezones})/:offsetStart(${offset})-:offsetEnd(${offset})`}
+          path={`/:timezone(${timezones})/:offsetStart(${offset})-:offsetEnd(${offset})`}
           component={Timezones}
         />
         <Route component={NotFound} />
