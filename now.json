@@ -14,11 +14,7 @@
     },
     {
       "src": "/favicon.ico",
-      "dest": "favicon.ico"
-    },
-    {
-      "src": "/robots.txt",
-      "dest": "robots.txt"
+      "dest": "build/public/favicon.ico"
     },
     {
       "src": "/(.*)",
