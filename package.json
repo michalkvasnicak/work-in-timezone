@@ -7,8 +7,6 @@
     "build": "razzle build",
     "lint": "eslint --ext ts,tsx .",
     "lint-staged": "lint-staged",
-    "now-build": "razzle build",
-    "now-start": "NODE_ENV=production node build/server.js",
     "typecheck": "tsc -p . --noEmit"
   },
   "dependencies": {
