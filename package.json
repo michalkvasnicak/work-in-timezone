@@ -15,7 +15,7 @@
     "d3-geo-projection": "2.7.1",
     "emotion-server": "^10.0.17",
     "express": "^4.17.1",
-    "luxon": "^1.21.3",
+    "luxon": "^1.28.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
